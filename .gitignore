@@ -1,0 +1,6 @@
+# ignore all content inside old_data & new_data:
+data_preprocessing/old_data/*
+!data_preprocessing/old_data/.gitkeep
+
+data_preprocessing/new_data/*
+!data_preprocessing/new_data/.gitkeep
