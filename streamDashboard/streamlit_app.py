@@ -9,14 +9,22 @@ from scipy.spatial.distance import pdist
 from scipy.cluster import hierarchy
 from sklearn.preprocessing import StandardScaler
 import textwrap
-
+import os
 st.set_page_config(layout="wide", page_title="Sector Dashboard")
 #Cache to run once per session
+
+import os
+
 @st.cache_data
 def load_and_filter():
-    itac = pd.read_csv('itac_compact.csv').dropna(subset=['SIC'])
+    base = os.path.dirname(__file__)            # this will be …/streamDashboard
+    itac_path = os.path.join(base, 'itac_compact.csv')
+    sic_path  = os.path.join(base, 'sic-codes.csv')
+
+    itac = pd.read_csv(itac_path).dropna(subset=['SIC'])
     itac['SIC'] = itac['SIC'].astype(int)
-    sic = pd.read_csv('sic-codes.csv')
+
+    sic = pd.read_csv(sic_path)
     sic['SIC'] = sic['SIC'].astype(int)
 
     df = (
@@ -30,6 +38,7 @@ def load_and_filter():
     return df
 
 df = load_and_filter()
+
 
 # ---- Page functions ----
 
