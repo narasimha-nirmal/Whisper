@@ -4,3 +4,4 @@ data_preprocessing/old_data/*
 
 data_preprocessing/new_data/*
 !data_preprocessing/new_data/.gitkeep
+.DS_Store
