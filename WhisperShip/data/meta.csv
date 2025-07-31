@@ -1,0 +1,56 @@
+ASSESS Terms,,,RECC Terms,
+ID,Assessment ID,,SUPERID,Assessment ID + Recommendation Number
+CENTER,IAC Center Code,,ID,Assessment ID
+FY,Fiscal Year,,AR_NUMBER,Recommendation Number
+SIC,SIC industrial classification code,,APPCODE,Application Code
+NAICS,NAICS industrial classification code,,ARC2,IAC Assessment Recommendation Code
+STATE,US State abbreviation,,IMPSTATUS,"Implementation Status (I = implemented, N= Not Implement)"
+SALES,Total yearly sales,,IMPCOST,Total implementation cost
+EMPLOYEES,Total site employees,,PSOURCCODE,Primary resource identification code
+PLANT_AREA,Total plant square footage,,PCONSERVED,Units conserved
+PRODUCTS,Types of products,,PSOURCONSV,Source units conserved
+PRODUNITS,Production level units,,PSAVED,Cost savings
+PRODLEVEL,Total yearly production,,SSOURCCODE,Secondary resource identification code
+PRODHOURS,Total yearly hours of operation,,SCONSERVED,Units conserved
+NUMARS,Total number of recommendations,,SSOURCONSV,Source units conserved
+EC_plant_cost,Total yearly electricity consumption costs ($),,SSAVED,Cost savings
+EC_plant_usage,Total yearly electricity consumption (kWh),,TSOURCCODE,Tertiary resource identification code
+ED_plant_cost,Total yearly electricity demand charges ($),,TCONSERVED,Units conserved
+ED_plant_usage,Total yearly electricity demand (kW-month-year),,TSOURCONSV,Source units conserved
+EF_plant_cost,Total yearly electricity fees,,TSAVED,Cost savings
+E2_plant_cost,Total yearly natrual gas consumption costs ($),,QSOURCCODE,Quaternary resource identification code
+E2_plant_usage,Total yearly natural gas consumption (MMBtu),,QCONSERVED,Units conserved
+E3_plant_cost,Total yearly LPG consumption costs ($),,QSOURCONSV,Source units conserved
+E3_plant_usage,Total yearly LPG consumption (MMBtu),,QSAVED,Cost savings
+E4_plant_cost,Total yearly #1 Fuel Oil consumption costs ($),,REBATE,Was a rebate involved (yes/no)
+E4_plant_usage,Total yearly #1 Fuel Oil consumption (MMBtu),,INCREMNTAL,Was the recommendation implemented incrementally (yes/no)
+E5_plant_cost,Total yearly #2 Fuel Oil consumption costs ($),,FY,Fiscal Year
+E5_plant_usage,Total yearly #2 Fuel Oil consumption (MMBtu),,IC_CAPITAL,Captial component of implementation cost
+E6_plant_cost,Total yearly #4 Fuel Oil consumption costs ($),,IC_OTHER,Other componenet of implementation cost
+E6_plant_usage,Total yearly #4 Fuel Oil consumption (MMBtu),,PAYBACK,Simple Payback (years)
+E7_plant_cost,Total yearly #6 Fuel Oil consumption costs ($),,BPTOOL,What best practice tools was used (if any)
+E7_plant_usage,Total yearly #6 Fuel Oil consumption (MMBtu),,,
+E8_plant_cost,Total yearly Coal consumption costs ($),,,
+E8_plant_usage,Total yearly Coal consumption (MMBtu),,,
+E9_plant_cost,Total yearly Wood  consumption costs ($),,,
+E9_plant_usage,Total yearly Wood consumption (MMBtu),,,
+E10_plant_cost,Total yearly Paper consumption costs ($),,,
+E10_plant_usage,Total yearly Paper consumption (MMBtu),,,
+E11_plant_cost,Total yearly Other Gas consumption costs ($),,,
+E11_plant_usage,Total yearly Other Gas consumption (MMBtu),,,
+E12_plant_cost,Total yearly Other Energy consumption costs ($),,,
+E12_plant_usage,Total yearly Other Energy consumption (MMBtu),,,
+W0_plant_cost,Total yearly Water consumption costs ($),,,
+W0_plant_usage,Total yearly Water consumption (Tgal),,,
+W1_plant_cost,Total yearly Water disposal costs ($),,,
+W1_plant_usage,Total yearly Water disposal (gal),,,
+W2_plant_cost,Total yearly Other Liquid (non-haz) disposal costs ($),,,
+W2_plant_usage,Total yearly Other Liquid (non-haz) disposal (gal),,,
+W3_plant_cost,Total yearly Other Liquid (haz) disposal costs ($),,,
+W3_plant_usage,Total yearly Other Liquid (haz) disposal (gal),,,
+W4_plant_cost,Total yearly Other Solid (non-haz) disposal costs ($),,,
+W4_plant_usage,Total yearly Other Solid (non-haz) disposal (lbs),,,
+W5_plant_cost,Total yearly Other Solid (haz) disposal costs ($),,,
+W5_plant_usage,Total yearly Other Solid (haz) disposal (lbs),,,
+W6_plant_cost,Total yearly Gaseous Waste disposal costs ($),,,
+W6_plant_usage,Total yearly Gaseous Waste disposal (lbs),,,
